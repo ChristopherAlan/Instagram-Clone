@@ -131,13 +131,13 @@ class ViewController: UIViewController, UITextFieldDelegate, UINavigationControl
 
     }
     
-    /*override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
     }
     
     override func viewWillDisappear(animated: Bool) {
         self.navigationController?.navigationBarHidden = false
-    }*/
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

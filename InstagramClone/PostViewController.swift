@@ -112,7 +112,7 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, UIIm
     @IBAction func logout(sender: AnyObject) {
         
         PFUser.logOut()
-        //self.performSegueWithIdentifier("logout", sender: self)
+        self.performSegueWithIdentifier("logout", sender: self)
         
     }
     
